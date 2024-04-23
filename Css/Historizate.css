@@ -229,3 +229,59 @@ margin: 0;
 .persona:first-child{
     margin-left: 0;
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    /* Estilos adicionales para dispositivos móviles */
+    header {
+      padding: 0.5em 0; /* Reducir el relleno del encabezado */
+    }
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    header {
+      padding: 0.5em 0; /* Reducir el relleno del encabezado */
+    }
+  
+    header h1 {
+      font-size: 1.8em; /* Reducir el tamaño de la fuente del encabezado */
+    }
+  
+    .columnas {
+      overflow: auto; /* Evitar que las columnas se solapen */
+    }
+  
+    .Benvenuti,
+    .Testimonianza {
+      width: 100%; /* Ancho completo para los contenedores */
+      padding-right: 0; /* Eliminar el relleno derecho */
+      margin-bottom: 1em; /* Agregar espacio inferior entre los contenedores */
+    }
+  
+    .persona {
+      width: 100%; /* Ancho completo para las personas */
+      margin-left: 0; /* Eliminar el margen izquierdo */
+      margin-bottom: 1em; /* Agregar espacio inferior entre las personas */
+    }
+  
+    .persona img {
+      max-width: 100%; /* Hacer que las imágenes se ajusten al ancho del contenedor */
+    }
+  
+    .columna {
+      width: 100%; /* Ancho completo para las columnas */
+      padding: 0.6em 0; /* Ajustar el relleno de las columnas */
+    }
+  
+    .formulario label {
+      width: 100%; /* Ancho completo para las etiquetas del formulario */
+      display: block; /* Mostrar en bloque para que cada etiqueta esté en su propia línea */
+      margin-bottom: 0.5em; /* Agregar espacio inferior entre las etiquetas */
+    }
+  
+    .formulario input,
+    .formulario textarea {
+      width: 100%; /* Ancho completo para los campos de entrada y áreas de texto */
+      margin-bottom: 1em; /* Agregar espacio inferior entre los campos */
+    }
+  }
+    
