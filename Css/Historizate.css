@@ -291,5 +291,8 @@ margin: 0;
     font-size: 0.9em; /* Reducir el tamaño de fuente */
     padding: 0.5em 1em; /* Ajustar el relleno */
   }
+  .homeimg img {
+    max-width: 100%;
+}  
 }
 
